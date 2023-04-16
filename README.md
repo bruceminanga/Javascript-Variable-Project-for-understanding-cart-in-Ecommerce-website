@@ -11,3 +11,11 @@ The below image is how it will appear if you run the code.
 A way people could use varialbe too include:
 
 ![Screenshot from 2023-04-16 20-00-06](https://user-images.githubusercontent.com/43348071/232328535-bdb6ad9f-6972-45fd-88ae-60ba6dee5a82.png)
+
+
+Comparison operators
+
+![Screenshot from 2023-04-16 21-55-09](https://user-images.githubusercontent.com/43348071/232335476-bc544008-b609-4f6e-a720-316ce74146eb.png)
+
+
+In js, you could use ==. But the problem with it is that it converts the values into the same type. eg, run console.lo(5=='5') will show as true even though they are not of the same type. So it's better to use === in javascript to avoid the convertion behavior. 
