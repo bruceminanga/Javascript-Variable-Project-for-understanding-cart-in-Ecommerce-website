@@ -7,3 +7,7 @@ The below image is how it will appear if you run the code.
 
 
 ![Screenshot from 2023-04-16 19-45-45](https://user-images.githubusercontent.com/43348071/232327740-f4a6e217-d9f1-4623-a50c-b1f3c98af593.png)
+
+A way people could use varialbe too include:
+
+![Screenshot from 2023-04-16 20-00-06](https://user-images.githubusercontent.com/43348071/232328535-bdb6ad9f-6972-45fd-88ae-60ba6dee5a82.png)
