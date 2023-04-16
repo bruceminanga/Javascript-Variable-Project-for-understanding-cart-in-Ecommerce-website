@@ -7,17 +7,20 @@
   <title>Simple Cart</title>
 </head>
 <body>
-  
+
   <button onclick="
+  // Display cart quantity. Here we have used template string and weve used backticks to call variable
       console.log(`Cart quantity: ${cartQuantity}`);
     ">Show Quantity</button>
 
     <button onclick="
+    // This will add one to the cart quantity. Which is incremental
       cartQuantity++;
       console.log(`Cart quantity: ${cartQuantity}`);
     ">Add to Cart</button>
 
     <button onclick="
+    // This will increase the cart quantity by 2. It will override the current variable.
       cartQuantity += 2;
       console.log(`Cart quantity: ${cartQuantity}`);
     ">+2</button>
@@ -34,6 +37,7 @@
     ">Reset Cart</button>
 
     <script>
+      // This is a variable to store the cart quantity. The cart quantity starts at 0
       let cartQuantity = 0;
     </script>
 </body>
